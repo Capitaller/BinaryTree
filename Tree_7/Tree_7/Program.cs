@@ -93,17 +93,30 @@ internal class BinarySearchTree
 	public Node search(Node root,
 					int key)
 	{
+		
 		// Base Cases: root is null 
 		// or key is present at root 
-		if (root == null)
-		{
-			// Console.WriteLine("1");
-			Console.WriteLine("Пещера не найдена, копаем проход");
-		
-			return null;
+		if (root == null )
+        {
 			
-		}
-		if (root.key == key)
+			
+			Console.WriteLine("Пещера не найдена, копаем проход");
+			BinarySearchTree tree = new BinarySearchTree();
+			string Path = @"BST15.txt";
+			int[] array = { 0 };
+
+			array = File.ReadAllText(Path).Split().Select(int.Parse).ToArray();
+			for (int i = 0; i < array.Length; i++)
+			{
+				tree.insert(array[i], i + 1);
+
+			}
+			tree.insert(key, array.Length + 1);
+			tree.search(tree.root, key);
+			return null;
+
+        }
+        if (root.key == key)
 		{
 			// Console.WriteLine("1");
 			Console.WriteLine("Пещера найдена, в ней: " + root.key +" золота");
@@ -165,24 +178,24 @@ internal class BinarySearchTree
 
 
 
-		//for (int i = 0; i < array.Length; i++)
-		//{
-		//	tree.insert(array[i], i + 1);
-
-		//}
-
-		//tree.search(tree.root, search);
-
-        if (tree.search(tree.root, search) == null)
+        for (int i = 0; i < array.Length; i++)
         {
-            for (int i = 0; i < array.Length; i++)
-            {
-                tree.insert(array[i], i + 1);
+            tree.insert(array[i], i + 1);
 
-            }
-            tree.insert(search, array.Length + 1);
-            tree.search(tree.root, search);
         }
+
+        tree.search(tree.root, search);
+
+        //if (tree.search(tree.root, search) == null)
+        //{
+        //    for (int i = 0; i < array.Length; i++)
+        //    {
+        //        tree.insert(array[i], i + 1);
+
+        //    }
+        //    tree.insert(search, array.Length + 1);
+        //    tree.search(tree.root, search);
+        //}
         //print inorder traversal of the BST
 
         // tree.inorder();
