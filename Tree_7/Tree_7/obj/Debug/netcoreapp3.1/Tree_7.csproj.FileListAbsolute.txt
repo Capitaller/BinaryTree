@@ -1,0 +1,13 @@
+C:\Users\Антон\source\repos\Tree_7\Tree_7\bin\Debug\netcoreapp3.1\Tree_7.exe
+C:\Users\Антон\source\repos\Tree_7\Tree_7\bin\Debug\netcoreapp3.1\Tree_7.deps.json
+C:\Users\Антон\source\repos\Tree_7\Tree_7\bin\Debug\netcoreapp3.1\Tree_7.runtimeconfig.json
+C:\Users\Антон\source\repos\Tree_7\Tree_7\bin\Debug\netcoreapp3.1\Tree_7.runtimeconfig.dev.json
+C:\Users\Антон\source\repos\Tree_7\Tree_7\bin\Debug\netcoreapp3.1\Tree_7.dll
+C:\Users\Антон\source\repos\Tree_7\Tree_7\bin\Debug\netcoreapp3.1\Tree_7.pdb
+C:\Users\Антон\source\repos\Tree_7\Tree_7\obj\Debug\netcoreapp3.1\Tree_7.csprojAssemblyReference.cache
+C:\Users\Антон\source\repos\Tree_7\Tree_7\obj\Debug\netcoreapp3.1\Tree_7.AssemblyInfoInputs.cache
+C:\Users\Антон\source\repos\Tree_7\Tree_7\obj\Debug\netcoreapp3.1\Tree_7.AssemblyInfo.cs
+C:\Users\Антон\source\repos\Tree_7\Tree_7\obj\Debug\netcoreapp3.1\Tree_7.csproj.CoreCompileInputs.cache
+C:\Users\Антон\source\repos\Tree_7\Tree_7\obj\Debug\netcoreapp3.1\Tree_7.dll
+C:\Users\Антон\source\repos\Tree_7\Tree_7\obj\Debug\netcoreapp3.1\Tree_7.pdb
+C:\Users\Антон\source\repos\Tree_7\Tree_7\obj\Debug\netcoreapp3.1\Tree_7.genruntimeconfig.cache
